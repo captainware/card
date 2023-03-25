@@ -1,0 +1,25 @@
+         if getgenv().eggbuy == true then
+  local A_1 = "Starter Egg"
+  local A_2 = "Buy3"
+  local Event = game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg
+  Event:InvokeServer(A_1, A_2)
+  local A_1 = "Common"
+  local A_2 = true
+  local Event = game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.AutoDelete
+  Event:InvokeServer(A_1, A_2)
+  local A_1 = "Uncommon"
+  local A_2 = true
+  local Event = game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.AutoDelete
+  Event:InvokeServer(A_1, A_2)
+  local A_1 = "Rare"
+  local A_2 = true
+  local Event = game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.AutoDelete
+  Event:InvokeServer(A_1, A_2)
+  local A_1 = "Epic"
+  local A_2 = true
+  local Event = game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.AutoDelete
+  Event:InvokeServer(A_1, A_2)
+  local A_1 = "Legendary"
+  local A_2 = true
+  local Event = game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.AutoDelete
+  Event:InvokeServer(A_1, A_2)
